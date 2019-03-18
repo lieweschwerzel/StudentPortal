@@ -19,7 +19,7 @@
         android:inputType="textUri"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView"
-        android:importantForAutofill="no" />
+        android:importantForAutofill="no" tools:targetApi="o"/>
 
     <EditText
         android:id="@+id/editText_add"
@@ -31,7 +31,7 @@
         android:inputType="text"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView2"
-        android:importantForAutofill="no" />
+        android:importantForAutofill="no" tools:targetApi="o"/>
 
     <TextView
         android:id="@+id/textView"
